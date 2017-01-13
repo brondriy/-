@@ -5,6 +5,16 @@ body
     background-repeat: no-repeat;
 }
 
+.p1-center-text
+{
+    margin-top: 100px;
+    background-color:rgba(130, 144, 171, 0.3);
+    height: 295px;
+    word-wrap:break-word;
+    overflow: hidden;
+    text-align:center;
+}
+
 .title
 {
     color: white;
