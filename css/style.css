@@ -2,7 +2,7 @@ body
 {
     background-image: url(../img/bg.jpg);
     background-size: cover;
-    background-position: 0px -200px;
+    background-position: 0px -220px;
     background-repeat: no-repeat;
 }
 
@@ -27,6 +27,7 @@ body
     overflow: hidden;
     text-align:center;
     color: white;
+    opacity: 0;
 }
 
 .title
