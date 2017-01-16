@@ -1,3 +1,13 @@
+/*--------------------fonts-------------------*/
+
+@font-face
+{
+    font-family: font;
+    src: url(../fonts/font.ttf);
+}
+
+/*--------------------style-------------------*/
+
 body
 {
     background-image: url(../img/bg.jpg);
@@ -32,6 +42,42 @@ body
 .title>a:hover
 {
     text-decoration: none;
+}
+
+.menu-item
+{
+    text-shadow: none;
+    font-family: font;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.menu-item>a
+{
+    color: black;
+    padding-right: 5px;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.menu-item>a:hover
+{
+    color: darkgray;
+    text-decoration: none;
+}
+
+.bord
+{
+    border-right: 1px black solid;
+}
+
+.menu
+{
+    float: right;
+    line-height: 40px;
 }
 
 .logo
