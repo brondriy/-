@@ -29,6 +29,21 @@ body
     color: white;
     opacity: 0;
 }
+.title>a:hover
+{
+    text-decoration: none;
+}
+
+.logo
+{
+    margin-left:-204px;
+    transition: 0.5s;
+}
+
+.logo:hover
+{
+    opacity:0;
+}
 
 .title
 {
