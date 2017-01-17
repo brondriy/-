@@ -10,7 +10,7 @@ $(document).ready(function(){
     }, 2000)
     $(".white").animate(
     {
-        opacity: 0.85
+        opacity: 0.6
     }, 5000);
 
 });

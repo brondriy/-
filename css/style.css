@@ -32,7 +32,7 @@ body
 .p1-center-text
 {
     margin-top: 100px;
-    background-color:rgba(0,0,0, 0.2);
+    background-color:rgba(0,0,0, 0.5);
     height: 295px;
     word-wrap:break-word;
     overflow: hidden;
