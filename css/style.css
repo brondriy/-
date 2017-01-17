@@ -72,7 +72,7 @@ body
 
 .bord
 {
-    border-right: 1px black solid;
+    border-right: 0.1px black solid;
 }
 
 .menu
@@ -103,7 +103,15 @@ body
     margin-top: 20px;
 }
 
-.btn-next
+.btn-next.btn
 {
-    margin-top: 450px;
+    margin-top: 85px;
+    opacity: 0;
+    width: 120px;
+    border-radius:0px;
+    border-style: none;
+    background-color:rgba(0,0,0, 0.5);
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
 }
