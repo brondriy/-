@@ -29,15 +29,21 @@ body
     z-index: -20;
 }
 
+.sandy-two
+{
+    font-family: font;
+}
+
 .p1-center-text
 {
-    margin-top: 100px;
-    background-color:rgba(0,0,0, 0.5);
+    margin-top: 98px;
+    border: 2px solid rgba(0,0,0,0.6);
+    background-color:rgba(0,0,0, 0);
     height: 295px;
     word-wrap:break-word;
     overflow: hidden;
     text-align:center;
-    color: white;
+    color: rgba(0,0,0,0.6);
     opacity: 0;
 }
 .title>a:hover
@@ -101,17 +107,4 @@ body
 .main
 {
     margin-top: 20px;
-}
-
-.btn-next.btn
-{
-    margin-top: 85px;
-    opacity: 0;
-    width: 120px;
-    border-radius:0px;
-    border-style: none;
-    background-color:rgba(0,0,0, 0.5);
-    color: white;
-    font-weight: bold;
-    transition: 0.5s;
 }
