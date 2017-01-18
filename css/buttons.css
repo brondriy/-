@@ -21,7 +21,6 @@ a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
 }
 a.animated-button:link, a.animated-button:visited {
 	position: relative;
-	display: block;
 	margin: 30px auto 0;
 	padding: 14px 15px;
 	color: #fff;
@@ -42,7 +41,7 @@ a.animated-button:link, a.animated-button:visited {
 a.animated-button.sandy-two {
 	border: 2px solid rgba(0,0,0,0.6);
 	color: rgba(0,0,0,0.6);
-    width:200px;
+    width:194px;
     opacity:0;
 }
 a.animated-button.sandy-two:after {
