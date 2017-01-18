@@ -4,7 +4,7 @@ $(document).ready(function(){
          top: "-=20",
          opacity:1
      }, 1200);
-    $(".sandy-two").animate(
+    $(".sandy-two, .sandy-one").animate(
     {
         opacity:1
     }, 2000)
