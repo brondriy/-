@@ -7,7 +7,7 @@
 @font-face
 {
     font-family: font;
-    src: url(../fonts/CG.ttf);
+    src: url(../fonts/font.ttf);
 }
 
 /*--------------------style-------------------*/
@@ -63,14 +63,19 @@ body
     padding-bottom: 15px;
     letter-spacing: normal;
     text-align:center;
+    margin-top: 20px;
+}
+
+.bottom
+{
+    margin-top: 100px;
+    font-size: 20px;
 }
 
 .p1-center-text
 {
 
     margin-top: 98px;
-    /*border: 2px solid rgba(0,0,0,0.6);
-    color: rgba(0,0,0,0.6);*/
     color: rgba(0,0,0,0.5);
     background-color:rgba(0,0,0, 0);
     height: auto;
@@ -142,3 +147,5 @@ body
 {
     margin-top: 20px;
 }
+
+
