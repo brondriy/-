@@ -29,23 +29,26 @@ body
     z-index: -20;
 }
 
-.sandy-two
+.p1-center-text>h1>small
 {
-    font-family: font;
+    border-top: 2px solid black;
+    padding-top: 10px;
 }
 
 .p1-center-text
 {
+
     margin-top: 98px;
     /*border: 2px solid rgba(0,0,0,0.6);
     color: rgba(0,0,0,0.6);*/
-    color: white;
-    background-color:rgba(0,0,0, 0.4);
-    height: 295px;
+    color: rgba(0,0,0,0.5);
+    background-color:rgba(0,0,0, 0);
+    height: auto;
     word-wrap:break-word;
     overflow: hidden;
     text-align:center;
     opacity: 0;
+    font-weight: bold;
 }
 .title>a:hover
 {
