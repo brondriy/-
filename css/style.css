@@ -1,9 +1,13 @@
 /*--------------------fonts-------------------*/
-
+@font-face
+{
+    font-family: fontbold;
+    src: url(../fonts/CGB.ttf);
+}
 @font-face
 {
     font-family: font;
-    src: url(../fonts/font.ttf);
+    src: url(../fonts/CG.ttf);
 }
 
 /*--------------------style-------------------*/
@@ -29,10 +33,36 @@ body
     z-index: -20;
 }
 
+.p1-center-text>h1
+{
+    letter-spacing: 3px;
+    font-family: font;
+}
+
 .p1-center-text>h1>small
 {
+    display:block;
+    color: white;
+    padding-left:80px;
+    padding-right:80px;
     border-top: 2px solid black;
     padding-top: 10px;
+}
+
+.header
+{
+    font-family: fontbold;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.block
+{
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    letter-spacing: normal;
+    text-align:center;
 }
 
 .p1-center-text
