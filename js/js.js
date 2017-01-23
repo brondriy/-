@@ -16,6 +16,9 @@ $(document).ready(function(){
 });
 $(".d1").click(function()
     {
-        /*$(".main1").slideUp(700);*/
-        $(".main1").fadeOut(700);
-    });
+        /*$(".main1").slideUp(700);
+        $(".main1").fadeOut(700);*/
+        $(".main1").animate({
+            top: "-"+$(window).height()
+        }, 1500);
+});

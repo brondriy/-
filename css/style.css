@@ -146,6 +146,8 @@ body
 
 .main1
 {
+    display:block;
+    position:relative;
     margin-top: 20px;
 }
 
