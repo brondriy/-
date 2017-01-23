@@ -52,7 +52,7 @@ body
 .header
 {
     font-family: fontbold;
-    line-height: 30px;
+    line-height: 40px;
     margin-bottom: 5px;
 }
 
@@ -64,11 +64,12 @@ body
     letter-spacing: normal;
     text-align:center;
     margin-top: 20px;
+    line-height: 25px;
 }
 
 .bottom
 {
-    margin-top: 100px;
+    margin-top: 80px;
     font-size: 20px;
 }
 
@@ -151,6 +152,15 @@ body
 .number
 {
     font-size: 15px;
+}
+
+.fullscreen-bg__video {
+    position: fixed;
+    top: -400px;
+    left: -600px;
+    width: 200%;
+    height: 200%;
+    z-index: -21;
 }
 
 

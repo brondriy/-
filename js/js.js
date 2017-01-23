@@ -1,5 +1,5 @@
 $(document).ready(function(){
-     $(".p1-center-text").animate(
+    $(".p1-center-text").animate(
     {
          top: "-=20",
          opacity:1
@@ -7,10 +7,10 @@ $(document).ready(function(){
     $(".sandy-two, .sandy-one").animate(
     {
         opacity:1
-    }, 2000)
+    }, 2000);
     $(".white").animate(
     {
-        opacity: 0.6
+        opacity: 0.95
     }, 5000);
 
 });
