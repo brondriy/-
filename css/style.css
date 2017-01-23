@@ -69,7 +69,10 @@ body
 
 .bottom
 {
-    margin-top: 80px;
+    position:absolute;
+    width:100%;
+    left:0;
+    bottom:10px;
     font-size: 20px;
 }
 
@@ -96,9 +99,10 @@ body
     text-shadow: none;
     font-family: font;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 11px;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-weight: bold;
 
 }
 
@@ -127,6 +131,11 @@ body
     line-height: 40px;
 }
 
+.active
+{
+
+}
+
 .logo
 {
     margin-left:-204px;
@@ -140,6 +149,7 @@ body
 
 .title
 {
+    margin-top: 10px;
     color: white;
     text-shadow: 2px 2px 2px black;
 }

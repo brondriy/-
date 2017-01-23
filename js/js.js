@@ -10,15 +10,11 @@ $(document).ready(function(){
     }, 2000);
     $(".white").animate(
     {
-        opacity: 0.8
+        opacity: 0.9
     }, 5000);
 
 });
 $(".d1").click(function()
     {
-        /*$(".main1").slideUp(700);
-        $(".main1").fadeOut(700);*/
-        $(".main1").animate({
-            top: "-"+$(window).height()
-        }, 1500);
+        $(".main1").fadeOut(700);
 });
