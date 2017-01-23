@@ -10,7 +10,12 @@ $(document).ready(function(){
     }, 2000);
     $(".white").animate(
     {
-        opacity: 0.95
+        opacity: 0.8
     }, 5000);
 
 });
+$(".d1").click(function()
+    {
+        /*$(".main1").slideUp(700);*/
+        $(".main1").fadeOut(700);
+    });
