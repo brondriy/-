@@ -69,11 +69,8 @@ body
 
 .bottom
 {
-    position:absolute;
-    width:100%;
-    left:0;
-    bottom:10px;
     font-size: 20px;
+    margin-top: 60px;
 }
 
 .p1-center-text
@@ -133,7 +130,7 @@ body
 
 .active
 {
-
+    text-decoration: underline;
 }
 
 .logo
