@@ -4,7 +4,7 @@ $(document).ready(function(){
          top: "-=20",
          opacity:1
      }, 1200);
-    $(".sandy-two, .sandy-one").animate(
+    $(".d1, .sandy-one").animate(
     {
         opacity:1
     }, 2000);
@@ -16,5 +16,6 @@ $(document).ready(function(){
 });
 $(".d1").click(function()
     {
-        $(".main1").fadeOut(700);
+        /*$(".main1").slideUp(600,function(){$(".main2").slideDown(600);});*/
+        $(".main1").fadeOut(600,function(){$(".main2").slideDown(600);});
 });

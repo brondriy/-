@@ -65,9 +65,14 @@ a.animated-button.sandy-two {
 	border: 2px solid rgba(0,0,0,0.8);
 	color: rgba(0,0,0,0.6);
     width:194px;
-    opacity:0;
     margin-top: -10px;
 }
+
+.d1
+{
+    opacity:0;
+}
+
 a.animated-button.sandy-two:after {
 	border: 3px solid rgba(0,0,0,0.8);
 	opacity: 0;

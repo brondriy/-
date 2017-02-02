@@ -163,13 +163,4 @@ body
     font-size: 15px;
 }
 
-.fullscreen-bg__video {
-    position: fixed;
-    top: -400px;
-    left: -600px;
-    width: 200%;
-    height: 200%;
-    z-index: -21;
-}
-
 
