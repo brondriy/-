@@ -58,13 +58,13 @@ body
 
 .block
 {
-    background-color: rgba(0,0,0,0.5);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    border: solid 2px rgba(0,0,0,0.6);
+    padding: 15px 10px 15px 10px;
     letter-spacing: normal;
     text-align:center;
     margin-top: 20px;
     line-height: 25px;
+    color: rgba(0,0,0,0.6);
 }
 
 .bottom
