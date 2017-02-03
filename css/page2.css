@@ -18,7 +18,8 @@
 
 .p2-descr-table
 {
-    height: 440px;
+    height: 410px;
+
 }
 
 .p2-items
@@ -38,7 +39,7 @@
     border-bottom: solid 1px rgba(0,0,0,0.5);
 }
 
-.p2-item>a>li
+.p2-item>li
 {
     color: rgba(0,0,0,0.7);
     border: solid 2px rgba(0,0,0,0.5);
@@ -49,20 +50,21 @@
     margin-right: -15px;
     margin-top: 20px;
     background-color: rgba(0,0,0,0);
+    transition: 0.5s;
 }
 
-.p2-item>a:hover
+.p2-item>li:hover
 {
-    text-decoration: none;
+    cursor:pointer;
 }
 
-.p2-item>a>li:hover:not(.item-active)
+.p2-item>li:hover:not(.item-active)
 {
-    background-color: rgba(0,0,0,0) !important;
-    color: rgba(0,0,0,0.7) !important;
+    background-color: rgba(0,0,0,0.7) !important;
+    color: white !important;
     padding: -4px;
     transition: 0.4s;
-    border: solid 2px rgba(0,0,0,0.5);
+    border: solid 2px rgba(0,0,0,0);
 }
 
 .item-active
@@ -74,7 +76,7 @@
 
 .vcenter
 {
-    width: 456px;
+    margin-left: -28px;
     word-wrap: break-word;
 }
 
