@@ -27,14 +27,19 @@ $(".m1-2").click(function(){changepage(active,2);});
 $(".logo,.logo-hover").click(function(){changepage(active,1);});
 
 /*page2*/
-$(".m2-1").click(function(){changem2item(active2,1);});
-$(".m2-2").click(function(){changem2item(active2,2);});
+$("li.m2-1").click(function(){changem2item(active2,1);});
+$("li.m2-2").click(function(){changem2item(active2,2);});
+$("li.m2-3").click(function(){changem2item(active2,3);});
+$("li.m2-4").click(function(){changem2item(active2,4);});
+$("li.m2-5").click(function(){changem2item(active2,5);});
+
+
 
 
 function changepage(_from,_to)
 {
     if( _to == active ) return;
-    $(".main"+_from).fadeOut(600,function(){$(".main"+_to).slideDown(600);});
+    $(".main"+_from).fadeOut(600,function(){$(".main"+_to).slideDown(600, function(){if(_to == 2 ){$("div[class='m2-']").hide(); $("div.m2-1").slideDown(600);}});});
     $(".m1-"+_from).removeClass("active");
     $(".m1-"+_to).addClass("active");
     active = _to;
@@ -43,8 +48,8 @@ function changepage(_from,_to)
 function changem2item(_from,_to)
 {
     if( _to == active2 ) return;
-    $(".m2-"+_from).removeClass("item-active");
-    $(".m2-"+_to).addClass("item-active");
-    $(".vcenter").html("<p>"+$(".m2-"+_to).text()+"</p> <br> LABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABLABL");
+    $("li.m2-"+_from).removeClass("item-active");
+    $("li.m2-"+_to).addClass("item-active");
+    $("div.m2-"+_from).fadeOut(300,function(){$("div.m2-"+_to).slideDown(600);});
     active2 = _to;
 };

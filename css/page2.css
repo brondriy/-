@@ -60,7 +60,7 @@
 
 .p2-item>li:hover:not(.item-active)
 {
-    background-color: rgba(0,0,0,0.7) !important;
+    background-color: rgba(0,0,0,0.5) !important;
     color: white !important;
     padding: -4px;
     transition: 0.4s;
@@ -80,7 +80,7 @@
     word-wrap: break-word;
 }
 
-.vcenter>p
+.vcenter>div[class^="m2-"]>p
 {
     margin-bottom: -30px;
     font-size: 13px;
@@ -96,4 +96,9 @@
     width: 100%;
     left: 0px;
     bottom: 10px;
+}
+
+div[class^="m2-"]
+{
+    display: none;
 }
