@@ -40,14 +40,14 @@ a.animated-button:link, a.animated-button:visited {
 }
 
 a.animated-button.sandy-one {
-	border: 2px solid rgba(0,0,0,0.7);
+	border: 2px solid rgba(0,0,0,0.5);
 	color: rgba(0,0,0,0.6);
     width:194px;
     opacity:0;
     margin-top: -10px;
 }
 a.animated-button.sandy-one:after {
-	border: 3px solid rgba(0,0,0,0.7);
+	border: 3px solid rgba(0,0,0,0.5);
 	opacity: 0;
 	-moz-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -62,7 +62,7 @@ a.animated-button.sandy-one:hover:after {
 }
 
 a.animated-button.sandy-two {
-	border: 2px solid rgba(0,0,0,0.7);
+	border: 2px solid rgba(0,0,0,0.5);
 	color: rgba(0,0,0,0.6);
     width:194px;
     margin-top: -10px;
@@ -74,7 +74,7 @@ a.animated-button.sandy-two {
 }
 
 a.animated-button.sandy-two:after {
-	border: 3px solid rgba(0,0,0,0.7);
+	border: 3px solid rgba(0,0,0,0.5);
 	opacity: 0;
 	-moz-transform: translateY(-50%) translateX(-50%) rotate(90deg);
 	-ms-transform: translateY(-50%) translateX(-50%) rotate(90deg);

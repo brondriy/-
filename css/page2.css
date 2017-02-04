@@ -102,3 +102,16 @@ div[class^="m2-"]
 {
     display: none;
 }
+
+div.m2-4
+{
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.item-d
+{
+    display: block;
+    position: relative;
+    top: -60px;
+}

@@ -33,6 +33,7 @@ $("li.m2-2").click(function(){changem2item(active2,2);});
 $("li.m2-3").click(function(){changem2item(active2,3);});
 $("li.m2-4").click(function(){changem2item(active2,4);});
 $("li.m2-5").click(function(){changem2item(active2,5);});
+$("a.item-d").click(function(){changem2item(active2,active2>4?5:active2+1)});
 
 
 
