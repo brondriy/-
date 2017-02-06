@@ -1,0 +1,27 @@
+.main3
+{
+    display:none;
+    margin-top: 70px;
+}
+
+p.undertext
+{
+    font-size: 20px;
+}
+
+.p3-col
+{
+    margin-top: 20px;
+    border-top: 2px solid rgba(0,0,0,0.7);
+    word-wrap: break-word;
+}
+
+.p3-col>h1
+{
+    margin-bottom: -5px;
+}
+
+.btns-3
+{
+    margin-top: 400px;
+}

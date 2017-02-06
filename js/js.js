@@ -24,7 +24,8 @@ $(".d1").click(function(){changepage(1,2);});
 
 /*header*/
 $(".m1-1").click(function(){changepage(active,1);});
-$(".m1-2").click(function(){changepage(active,2);});
+$(".m1-2,.item-d3").click(function(){changepage(active,2);});
+$(".m1-3,a.item-d1").click(function(){changepage(active,3);});
 $(".logo,.logo-hover").click(function(){changepage(active,1);});
 
 /*page2*/
@@ -77,6 +78,8 @@ function changepage(_from,_to)
 
 function changem2item(_from,_to)
 {
+    if( _to == 5 && active2 == 5 )
+        changepage(active,3);
     if( _to == active2 ) return;
     if( !change )
     {
